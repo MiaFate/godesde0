@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/miafate/hellogo/ejercicios"
+	"github.com/miafate/hellogo/teclado"
 )
 
 func main() {
@@ -24,6 +22,7 @@ func main() {
 	// default:
 	// 	fmt.Printf("%s \n", os)
 	// }
-	numero, texto := ejercicios.ConvertirAInt("10")
-	fmt.Println(numero, texto)
+	// numero, texto := ejercicios.ConvertirAInt("10")
+	// fmt.Println(numero, texto)
+	teclado.IngresoNumeros()
 }
