@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/miafate/hellogo/teclado"
+	"github.com/miafate/godesde0/ejercicios"
 )
 
 func main() {
@@ -24,5 +24,12 @@ func main() {
 	// }
 	// numero, texto := ejercicios.ConvertirAInt("10")
 	// fmt.Println(numero, texto)
-	teclado.IngresoNumeros()
+
+	//teclado.IngresoNumeros()
+
+	//iteraciones.Iterar()
+ // contar_letras.ContarLetras()
+  // prueba.Prueba1Funcion()
+ ejercicios.Ejercicio2() 
+
 }
