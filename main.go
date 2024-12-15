@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/miafate/godesde0/ejercicios"
+	"github.com/miafate/godesde0/files"
 )
 
 func main() {
@@ -28,8 +28,9 @@ func main() {
 	//teclado.IngresoNumeros()
 
 	//iteraciones.Iterar()
- // contar_letras.ContarLetras()
-  // prueba.Prueba1Funcion()
- ejercicios.Ejercicio2() 
-
+	// contar_letras.ContarLetras()
+	// prueba.Prueba1Funcion()
+	// fmt.Println(ejercicios.ObtenerTablas())
+	// files.SumarTabla()
+	files.LeerArchivo2()
 }
