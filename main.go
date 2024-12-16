@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/miafate/godesde0/files"
+	"github.com/miafate/godesde0/funciones"
 )
 
 func main() {
@@ -32,5 +32,7 @@ func main() {
 	// prueba.Prueba1Funcion()
 	// fmt.Println(ejercicios.ObtenerTablas())
 	// files.SumarTabla()
-	files.LeerArchivo2()
+	// files.LeerArchivo2()
+	// funciones.LlamarClosure()
+	funciones.Exponencia(2)
 }
