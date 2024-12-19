@@ -19,9 +19,12 @@ func MostrarMapas() {
 		"Boca Jrs":    30,
 	}
 	fmt.Println(campeonato)
-	for equipo, puntaje := range campeonato {
-		fmt.Printf("Equipo %s, tiene un puntaje de %d \n", equipo, puntaje)
-	}
+	// for equipo, puntaje := range campeonato {
+	// 	fmt.Printf("Equipo %s, tiene un puntaje de %d \n", equipo, puntaje)
+	// }
 	delete(campeonato, "Real Madrid")
 	fmt.Println(campeonato)
+
+	puntaje, existe := campeonato["Chivas"]
+	fmt.Printf("El puntaje capturado es %d, y el equipo existe = %t", puntaje, existe)
 }
