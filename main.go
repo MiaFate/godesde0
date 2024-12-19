@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/miafate/godesde0/funciones"
+	"github.com/miafate/godesde0/mapas"
 )
 
 func main() {
@@ -34,5 +34,7 @@ func main() {
 	// files.SumarTabla()
 	// files.LeerArchivo2()
 	// funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
