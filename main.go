@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/miafate/godesde0/mapas"
+	"github.com/miafate/godesde0/ejer_interfaces"
+	"github.com/miafate/godesde0/modelos"
 )
 
 func main() {
@@ -36,5 +37,11 @@ func main() {
 	// funciones.LlamarClosure()
 	// funciones.Exponencia(2)
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	//users.AltaUsuario()
+	Mia := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Mia)
+
+	Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
 }
