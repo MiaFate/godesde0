@@ -1,10 +1,5 @@
 package main
 
-import (
-	"github.com/miafate/godesde0/ejer_interfaces"
-	"github.com/miafate/godesde0/modelos"
-)
-
 func main() {
 	// estado, texto := variables.ConvertirATexto(14)
 	// fmt.Println(estado)
@@ -39,9 +34,14 @@ func main() {
 	// arreglos_slices.Capacidad()
 	// mapas.MostrarMapas()
 	//users.AltaUsuario()
-	Mia := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(Mia)
+	// interfaces
+	// Mia := new(modelos.Mujer)
+	// ejer_interfaces.HumanosRespirando(Mia)
 
-	Pedro := new(modelos.Hombre)
-	ejer_interfaces.HumanosRespirando(Pedro)
+	// Pedro := new(modelos.Hombre)
+	// ejer_interfaces.HumanosRespirando(Pedro)
+
+	//defer_panic
+	//defer_panic.VemosDefer()
+	//defer_panic.EjemploPanic()
 }
