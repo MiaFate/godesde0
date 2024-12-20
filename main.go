@@ -1,5 +1,7 @@
 package main
 
+import "github.com/miafate/godesde0/middleware"
+
 func main() {
 	// estado, texto := variables.ConvertirATexto(14)
 	// fmt.Println(estado)
@@ -57,4 +59,7 @@ func main() {
 
 	//webserver
 	//webserver.MiWebServer()
+
+	//middleware
+	middleware.MiMiddleware()
 }
