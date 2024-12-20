@@ -41,7 +41,20 @@ func main() {
 	// Pedro := new(modelos.Hombre)
 	// ejer_interfaces.HumanosRespirando(Pedro)
 
-	//defer_panic
+	//defer_panic_recover
+
 	//defer_panic.VemosDefer()
 	//defer_panic.EjemploPanic()
+
+	//goroutines and channels
+
+	// canal1 := make(chan bool)
+	// go goroutines.MiNombreLentooo("Mia Ramos", canal1)
+	// defer func() {
+	// 	<-canal1
+	// }()
+	// fmt.Println("Estoy aqui")
+
+	//webserver
+	//webserver.MiWebServer()
 }
